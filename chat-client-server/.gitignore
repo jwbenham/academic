@@ -1,0 +1,10 @@
+
+# Ignore compilation files
+*.o
+.*
+!.gitignore
+
+# Ignore binaries
+cli
+serv
+
