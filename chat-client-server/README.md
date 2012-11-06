@@ -13,10 +13,10 @@ responses.
 	messages must be sent following the HTTP protocol.
     * If the client connects to the HTTP chat server included in this directory,
 	then the user may send ordinary text messages to the server and all other
-	client connected to the chat server.
+	clients connected to the chat server.
 * _HTTP Server_: A command-line HTTP chat server. This is a chat server designed
 specifically to work with the accompanying HTTP chat client. Clients connected
-to the server will have all of their sent messages sent to all other connected
+to the server will have all of their messages sent to all other connected
 clients, and will receive all messages sent by other clients.
 
 ## Using the Server
