@@ -1,0 +1,15 @@
+
+# Ignore compilation files
+*.o
+.*
+!.gitignore
+
+# Ignore temp files
+*.tmp
+*.swp
+*~
+
+# Ignore binaries
+httpserv
+httpget
+
