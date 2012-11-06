@@ -1,0 +1,12 @@
+
+# Ignore word docs
+*.doc
+*.docx
+
+# Ignore temp/swap files
+*.tmp
+*.swp
+*~
+
+# Ignore class files
+*.class
