@@ -1,0 +1,13 @@
+
+# Ignore compilation files
+*.o
+.*
+!.gitignore
+
+# Ignore PPM images
+*.ppm
+
+# Ignore binaries
+afilter
+threshold
+
