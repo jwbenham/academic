@@ -18,6 +18,9 @@ responses.
 specifically to work with the accompanying HTTP chat client. Clients connected
 to the server will have all of their messages sent to all other connected
 clients, and will receive all messages sent by other clients.
+  
+__Requirements__:
+* Linux/Mac OS X (possibly any other POSIX-compliant OS)
 
 ## Using the Server
 The HTTP chat server can be compiled using the supplied Makefile, by entering

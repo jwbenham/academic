@@ -4,6 +4,10 @@ This Java application provides a multithreaded guestbook server backed by an
 Oracle database, and a guestbook client which allows users to connect to the 
 server. Users connected through the guestbook client can leave a message, which
 the server will store in the database.
+  
+__Requirements__:
+* Building: Java SE 6 JDK
+* Running: Java SE 6 JRE
 
 ##Purpose
 This is an academic project. It was developed as an end-of-term assignment to

@@ -19,4 +19,8 @@ project.
 * __chat-client-server [C - Unix]__: A multithreaded HTTP chat server, and an
 HTTP client which will connect to either 1) an HTTP server to submit HTTP
 requests, or 2) the accompanying HTTP chat server for chatting.
+* __http-client-server [C - Unix]__: A (limited) multithreaded HTTP web server,
+and a (limited) HTTP web client. The HTTP client can request and download files
+from a web server. Likewise, the HTTP server can serve files to a HTTP client (the
+one included in this project, or a more advanced one like a web browser).
 
