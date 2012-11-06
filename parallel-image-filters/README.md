@@ -43,7 +43,7 @@ To run afilter with OpenMPI, use the following command:
 execute the averaging filter.
   
 __Example 1__: Take input1.ppm and, using 4 parallel processes, create a blurred
-copy of input1.ppm called output1.ppm. Each output pixel will be the average of its
+copy of input1.ppm called output1.ppm. Each output pixel will be the average of 
 the input pixels surrounding it in a 10x10 pixel rectangle.  
 `mpirun -n 4 ./afilter input1.ppm output1.ppm 10 10`  
 
